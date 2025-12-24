@@ -61,8 +61,13 @@ npx hardhat run scripts/deploy.ts --network bscTestnet
 
 ## Địa chỉ Contract (Đã Deploy)
 
-- **MockToken**: `0xAf816c5611283850BaBdAFCC93BEA82266239540`
-- **Vault**: `0xeC6b3B898d6b03C52b9f66B898974de51546843c`
+- **MockToken**: `0xF58cF0A067907fca36a9adA4bBe038659d340348`
+- **Vault**: `0xC6DB23e8FAfA0Af6A22d012c200F49cd8E09F87e`
+
+## Deployment Transaction Hash
+
+- **MockToken Deploy Tx**: `0xb536d423a5921801444546360dcb9547105a3f29d0f79c349bbb57473295637a`
+- **Vault Deploy Tx**: `0x22e9ff96c255f06a1d1592aea6538ba29199f491ccfc7634793f35967dafdf40`
 
 ## Xác thực Contract (Verify)
 

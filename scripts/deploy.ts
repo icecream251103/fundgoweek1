@@ -12,6 +12,7 @@ async function main() {
   const mockTokenAddress = await mockToken.getAddress();
 
   console.log("MockToken deployed to:", mockTokenAddress);
+  console.log("MockToken Deploy Tx:", mockToken.deploymentTransaction()?.hash);
 
   // Deploy Vault
   const Vault = await ethers.getContractFactory("Vault");
@@ -20,6 +21,7 @@ async function main() {
   const vaultAddress = await vault.getAddress();
 
   console.log("Vault deployed to:", vaultAddress);
+  console.log("Vault Deploy Tx:", vault.deploymentTransaction()?.hash);
 }
 
 main().catch((error) => {
